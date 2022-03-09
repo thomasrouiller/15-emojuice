@@ -4,6 +4,23 @@ font-family: 'Quattrocento', serif;
 font-family: 'Sriracha', cursive;
  */
 
-:root {
-  
+/* :root {
+
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 380px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.site-header {
+  background-image: url(../img/multifruits.webp);
 }
