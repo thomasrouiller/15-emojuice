@@ -1,12 +1,15 @@
 /* 
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Quattrocento', serif;
-font-family: 'Sriracha', cursive;
+font-family: 'Maven Pro', sans-serif; 400 700
+font-family: 'Quattrocento', serif; 400 700
+font-family: 'Sriracha', cursive; 400
  */
 
-/* :root {
-
-} */
+:root {
+  --main-color: #57BB6B;
+  --secondary-color: #ffffff;
+  --button-color: ;
+  --light-button-color: ;
+}
 
 html {
   scroll-behavior: smooth;
@@ -15,6 +18,8 @@ html {
 body {
   max-width: 380px;
   margin: auto;
+  border-top: 8px solid var(--main-color);
+  text-align: center;
 }
 
 img {
@@ -22,5 +27,35 @@ img {
 }
 
 .site-header {
+  width: 380px;
+  height: 380px;
+  background-size: 380px;
+  padding-top: 1px;
   background-image: url(../img/multifruits.webp);
+}
+
+.logo-card {
+  background-color: #ffffffE6;
+  margin: 28px 30px 0px 30px;
+}
+
+.logo-card, img { 
+  margin: 28px 50px 0px 50px;
+}
+
+.logo-card, h1 {
+  margin: 20px 40px 0px 40px;
+  padding-bottom: 18px;
+  font-family: 'Quattrocento';
+  font-weight: 400;
+  color: var(--main-color);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button {
+  font-family: 'Maven Pro';
+  padding: 8px 14px;
+  background-color: var(--main-color);
+  border-radius: 14px;
 }
