@@ -98,15 +98,12 @@ img {
 .flex-fruit img {
   margin: 0px;
   width: 28px;
+  padding: 20px;
 }
 
 .flex-fruit { 
   display: flex;
   justify-content: center;
-}
-
-.flex-fruit img { 
-  padding: 20px;
 }
 
 h2 {
@@ -192,6 +189,36 @@ h2 {
   margin-top: 65px;
 }
 
+.card-small {
+  background-color: red;
+  border-radius: 31px;
+  margin: 6px;
+  box-shadow: 0px 0px 10px #01150531;
+  text-align: left;
+  padding: 1px;
+  min-width: 150px
+}
+
+.anchor-logo-container {
+  padding: 0px 10px 20px 10px;
+}
+
+.product-container-small a {
+  text-decoration: none;
+  font-family: 'Maven Pro';
+  font-size: 38px;
+  opacity: 0.7;
+  margin: auto;
+}
+
+.product-container-small img {
+  display: block;
+  width: 100%;
+  max-width: 50px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
 .card-banana {
   background-color: #FFF8D7;
 }
@@ -226,11 +253,7 @@ h2 {
 .product-container-small {
   display: flex;
   flex-direction: row;
-}
-
-.small-card {
-  padding: 0px;
-  max-width: 150px;
+  justify-content: center;
 }
 
 .site-footer h2 { 
