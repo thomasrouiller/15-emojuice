@@ -54,12 +54,18 @@ img {
   line-height: 24px;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .button {
   transition-duration: 0.4s;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   font-family: 'Maven Pro';
-  margin: 30px 68px;
+  margin: 13px 0px;
   padding: 12px 14px;
   background-color: var(--main-color);
   color: white;
@@ -92,14 +98,16 @@ img {
 
 .flex-fruit img {
   margin: 0px;
+  width: 28px;
 }
 
 .flex-fruit { 
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row;
   width: 20%;
   text-align: center;
-  margin-left: 35px;
+  margin-left: 35px; */
+  justify-content: center;
   /* align-items: center;
   justify-content: center; */
   /* overflow: hidden;
