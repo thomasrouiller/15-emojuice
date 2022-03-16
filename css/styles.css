@@ -169,6 +169,22 @@ h2 {
   margin-top: 65px;
 }
 
+.card-banana {
+  background-color: #FFF8D7;
+}
+
+.card-kiwi {
+  background-color: #C4F2AD;
+}
+
+.card-coffee {
+  background-color: #D3C6B2;
+}
+
+.card-strawberry {
+  background-color: #F7A4B4;
+}
+
 .anchor-logo-container {
   display: flex;
   flex-direction: row;
