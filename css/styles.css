@@ -122,6 +122,29 @@ h2 {
   background-color: var(--main-color);
 }
 
+.product-description {
+  font-family: 'Quattrocento';
+  font-size: 16px;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  text-align: left;
+  padding: 0px 68px 50px 68px;
+  font-weight: 400;
+}
+
+.product-description img {
+  width: 246px;
+}
+
+.product-description h2 {
+  padding-top: 30px;
+}
+
+.product-description h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .product h2 {
   color: white;
   padding-top: 30px;
@@ -219,6 +242,15 @@ h2 {
   background-color: var(--third-color);
 }
 
+.light-card-2 {
+  background-color: var(--third-color);
+  padding-bottom: 50px;
+}
+
+.light-card-2 h2 {
+  padding-top: 30px;
+}
+
 .light-card h3 {
   margin: 0;
   padding-top: 40px;
@@ -239,6 +271,10 @@ h2 {
   background-color: white;
   border-radius: 360px;
   margin-bottom: 50px;
+}
+
+.light-card-2 img {
+  padding: 0px;
 }
 
 .site-footer p {
