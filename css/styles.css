@@ -139,5 +139,46 @@ h2 {
 
 .card-product {
   background-color: red;
-  width: 321px;
+  border-radius: 31px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px #011505bd;
+  text-align: left;
+  padding: 39px;
+  min-width: 250px
+}
+
+.card-product h3 {
+  font-family: 'Sriracha';
+  font-size: 30px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.card-product p {
+  font-family: 'Quattrocento';
+  font-size: 16px;
+  margin: 0;
+}
+
+.card-product a {
+  font-family: 'Maven pro';
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+  margin-top: 65px;
+}
+
+.anchor-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.anchor-logo-container img {
+  width: 80px;
+}
+
+.anchor-logo-container a {
+  margin-bottom: 0px;
 }
