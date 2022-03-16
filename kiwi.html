@@ -11,11 +11,15 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="logo-card">
-        <img src="img/logoemojuice.svg" alt="le logo emojuice">
-        <h1>Boissons végétales préparées avec amour</h1>
+      <div class="logo-card-container">
+        <div class="logo-card">
+          <img src="img/logoemojuice.svg" alt="le logo emojuice">
+        </div>
+        <div class="logo-card">
+          <h1>Boissons végétales préparées avec amour</h1>
+        </div>
       </div>
-      <nav>
+      <nav class="button-container">
          <a class="button" href="kiwi.html">Accédez à nos produits</a>
          <a class="button-light" href="kiwi.html">Nous contacter</a>
       </nav>
@@ -46,12 +50,12 @@
       </div>
       <div class="light-card">
         <!-- attention classes -->
-        <div class="card-strawberry">
+        <div class="card-strawberry" class="card-product">
           <h3>Délices à la fraise</h3>
           <a href="kiwi.html">+</a>
           <img src="img/fraise.svg" alt="logo d'une fraise">
         </div>
-        <div class="card-coffee">
+        <div class="card-coffee" class="card-product">
           <h3>Glace au café</h3>
           <a href="kiwi.html">+</a>
           <img src="img/cafe.svg" alt="logo d'une tasse de café">
@@ -61,7 +65,7 @@
     </main>
     <footer class="site-footer">
       <h2>Nous contacter</h2>
-      <nav>
+      <nav class="button-container">
         <a class="button" href="mailto:emojuice@veggies.ch">
           emojuice@veggies.ch</a>
         <a class="button" href="https://instagram.com" target="_blank">
