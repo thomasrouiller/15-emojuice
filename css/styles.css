@@ -265,12 +265,12 @@ h2 {
   background-color: var(--third-color);
 }
 
-.light-card-2 {
+.light-card-bottom {
   background-color: var(--third-color);
   padding-bottom: 50px;
 }
 
-.light-card-2 h2 {
+.light-card-bottom h2 {
   padding-top: 30px;
 }
 
