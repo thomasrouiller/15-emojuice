@@ -312,7 +312,7 @@ h2 {
   width: 100px;
   padding: 40px;
   background-color: var(--secondary-color);
-  border-radius: 360px;
+  border-radius: 50%;
   margin-bottom: 50px;
 }
 
